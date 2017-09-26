@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title> E-WIZ Login</title>
+    
+    <link rel="stylesheet" type="text/css" href="login.css">
+<!--     <script type="text/javascript"  src="login.js"> </script> -->
+    <link rel="shortcut icon" href="E.ico">
+    
+  </head>
+  <body>
+    <div>
+      <div id="headerBar">
+	<img id="headerimg" src = "E.ico">
+      </div>
+      <form id="form" method="post" action="test.html">
+      
+	<img id="help" src = "help.png">
+	<h2> Welcome </h2>
+	<!-- 	ID Number -->
+	<input id="idNum" type = "text" placeholder = "ID Number" value=""></br>
+	<!-- 	Password -->
+	<input id="pass" type = "password" placeholder = "Password" value="">
+	<!-- Login Button -->
+	<input id="signinbutton" type = "submit" name = "login" value = "Login">
+
+	<p id="error" >Invalid Id Number or password</p> 
+	
+	<script type = "text/javascript" src = "js/jQuery.js"></script>
+	<script type = "text/javascript" src = "js/validate.js"></script>
+      
+      </form>
+      
+      <div id="helpdiv">
+	<img id="close" src = "close.png">
+	<p>Help Stuff</p>
+      </div>
+      
+    </div>
+  </body>
+</html> 

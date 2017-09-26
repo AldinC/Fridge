@@ -1,0 +1,12 @@
+body{
+	background-image:url("culinary-food-background-26687874.jpg");
+}
+.main{
+	padding-top: 25px;
+	padding-left: 50px;
+	padding-bottom:25px;
+	border-width:5px;	
+    border-style:groove;
+	margin:30px;
+	width: 50%;
+}
